@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapPin, Train, Home, Users, ChevronRight, Loader2 } from 'lucide-react';
-import { FloorPicker } from '../ui/floor-picker';
+import { FloorPicker } from '@/shared/ui/floor-picker';
 
 interface BasicInfo {
   postalCode: string;

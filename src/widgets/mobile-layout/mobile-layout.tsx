@@ -3,7 +3,7 @@ import { DollarSign, CreditCard } from 'lucide-react';
 import { TabNavigation } from './tab-navigation';
 import React, { useState } from 'react';
 import { NotificationDrawer } from './notification-drawer';
-import { useMenu } from '../../contexts/menu-context';
+import { useMenu } from '@/app/providers/menu-context';
 
 interface MobileLayoutProps {
   children: ReactNode;

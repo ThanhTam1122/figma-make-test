@@ -11,7 +11,7 @@ import {
   FilterSelect,
   InfoGrid,
   ActionButtonGroup
-} from '../ui/common-index';
+} from '@/shared/ui/common-index';
 
 interface Report {
   id: number;

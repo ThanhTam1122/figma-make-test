@@ -7,7 +7,7 @@ import {
   Modal,
   StatusBadge,
   StatusVariant
-} from '../ui/common-index';
+} from '@/shared/ui/common-index';
 
 interface Notification {
   id: number;

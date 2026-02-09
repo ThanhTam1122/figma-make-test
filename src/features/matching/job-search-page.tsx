@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapPin, Clock, Calendar, MessageCircle, Heart } from 'lucide-react';
-import { SearchBar, StatusBadge, StatusVariant } from '../ui/common-index';
+import { SearchBar, StatusBadge, StatusVariant } from '@/shared/ui/common-index';
 
 interface JobPosting {
   id: number;

@@ -11,7 +11,7 @@ import {
   FilterSelect,
   StatsCard,
   InfoGrid
-} from '../ui/common-index';
+} from '@/shared/ui/common-index';
 
 interface Matching {
   id: number;

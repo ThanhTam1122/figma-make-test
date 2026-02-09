@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FileText, ChevronRight } from 'lucide-react';
-import { ApplicationsList } from '../applications/applications-list';
-import { ApplicationForm } from '../applications/application-form';
+import { ApplicationsList } from '@/features/applications/applications-list';
+import { ApplicationForm } from '@/features/applications/application-form';
 
 interface RequestsHubProps {
   userType: 'client' | 'supporter';

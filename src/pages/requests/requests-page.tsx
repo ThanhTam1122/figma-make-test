@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { ApplicationsList } from '../applications/applications-list';
-import { ApplicationForm } from '../applications/application-form';
+import { ApplicationsList } from '@/features/applications/applications-list';
+import { ApplicationForm } from '@/features/applications/application-form';
 
 interface RequestsPageProps {
   userType: 'client' | 'supporter';

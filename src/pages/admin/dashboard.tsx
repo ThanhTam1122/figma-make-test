@@ -1,3 +1,4 @@
+import React from 'react';
 import { Users, UserCheck, Calendar, TrendingUp, AlertCircle, CheckCircle } from 'lucide-react';
 
 export function AdminDashboard() {

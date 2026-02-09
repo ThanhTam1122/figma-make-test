@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Clock, Check, X as XIcon, AlertCircle } from 'lucide-react';
-import { StatusBadge, StatusVariant } from '../ui/common-index';
+import { StatusBadge, StatusVariant } from '@/shared/ui/common-index';
 
 interface Application {
   id: number;

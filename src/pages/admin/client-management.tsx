@@ -10,7 +10,7 @@ import {
   ActionButtonGroup,
   InfoGrid,
   getStatusLabel
-} from '../ui/common-index';
+} from '@/shared/ui/common-index';
 
 interface Client {
   id: number;
